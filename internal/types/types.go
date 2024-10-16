@@ -1,5 +1,21 @@
 package types
 
+type Settings struct {
+	ProjectName  string `json:"Project_Name"`
+	ProjectPath  string `json:"Project_Path"`
+	ProjectDesc  string `json:"Project_Description"`
+	ImgLink      string `json:"Image_Link"`
+	OutputPath   string `json:"Output_Path"`
+	IncludeTests bool   `json:"Include_Tests"`
+	CapitalizeItems bool `json:CapitalizeItems`
+}
+
+type Error struct {
+	Message string
+	Filepath string
+	Comment string
+}
+
 type CommentBlock struct {
 	Filepath string
 	Package  string

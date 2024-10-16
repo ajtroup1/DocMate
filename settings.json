@@ -1,0 +1,9 @@
+{
+  "Project_Name": "Include project name here...",
+  "Project_Path": "./",
+  "Project_Description": "Include project description here...",
+  "Image_Link": "",
+  "Output_Path": "./",
+  "Include_Tests": false,
+  "CapitalizeItems": false
+}
